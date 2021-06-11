@@ -1,0 +1,22 @@
+  499  cd Desktop/
+  500  mkdir test
+  501  cd test/
+  502  touch index.html
+  503  touchy style.css
+  504  touch commands.txt
+  505  touch style.css
+  506  ls
+  507  copy index.html index_2.html 
+  508  cp index.html index_2.html 
+  509  ls
+  510  cd ..
+  511  mkdir destination
+  512  cd test/
+  513  mv index_2.html ../destination/
+  514  ls ../destination/
+  515  rm style.css 
+  516  ls
+  517  ls ../destination/
+  518  rm -rf ../destination/
+  519  ls ../destination/
+  520  history >> commands.txt 
